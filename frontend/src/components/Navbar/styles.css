@@ -1,0 +1,36 @@
+.main-nav {
+  min-height: 70px;
+  padding-left: 40px;
+}
+
+.navbar-logo-text {
+  color: #000000;
+  font: 24px;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+}
+
+.navbar-logo-text:hover {
+  color: #000000;
+}
+
+.logout-container {
+  margin-right: 30px;
+}
+.logout-container button {
+  height: 30px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.logout-container h5 {
+  font-size: 14px;
+  color: #000000;
+}
+
+@media(min-width: 768px){
+    .logout-container button {
+        width: 95px
+      }
+}

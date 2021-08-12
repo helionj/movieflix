@@ -1,0 +1,60 @@
+.home-main-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 17px 10px;
+}
+
+.home-banner-container {
+  display: none;
+}
+.home-login-card {
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+  .home-main-container {
+    padding: 40px 50px 120px 50px;
+  }
+
+  .home-login-card {
+    width: 480px;
+  }
+}
+
+@media (min-width: 768px) {
+  .home-login-card {
+    width: 550px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .home-main-container {
+    padding: 40px;
+  }
+  .home-banner-container {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .home-banner-container h1 {
+    font-weight: 700;
+    font-size: 48px;
+    letter-spacing: -0.015em;
+    color: #ffffff;
+    margin-bottom: 19px;
+  }
+  .home-banner-container p {
+    width: 320px;
+    font-weight: normal;
+    font-size: 22px;
+    letter-spacing: -0.015em;
+    color: #f2f2ff;
+    margin-bottom: 50px;
+  }
+
+  .home-banner-container svg {
+    width: 100%;
+  }
+  
+}
